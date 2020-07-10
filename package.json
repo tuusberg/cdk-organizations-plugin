@@ -1,0 +1,30 @@
+{
+  "name": "cdk-organizations-plugin",
+  "version": "1.0.0",
+  "description": "CDK plugin that simplifies accessing accounts in your organization by using a preconfigured IAM role.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src/plugin/test/",
+    "format": "prettier --write src/**/*.{js,ts}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuusberg/cdk-organizations-plugin.git"
+  },
+  "keywords": [],
+  "author": "tuusberg",
+  "homepage": "https://github.com/tuusberg/cdk-organizations-plugin#readme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuusberg/cdk-organizations-plugin/issues"
+  },
+  "dependencies": {
+    "aws-cdk": "^1.48.0",
+    "aws-sdk": "^2.709.0",
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "^1.48.0",
+    "jest": "^25.3.0"
+  }
+}
